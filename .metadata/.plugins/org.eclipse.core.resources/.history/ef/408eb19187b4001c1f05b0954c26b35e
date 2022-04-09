@@ -1,0 +1,22 @@
+package estrutura_repetição;
+
+import java.util.Scanner;
+
+public class Ex23 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		String sexo;
+		
+		System.out.println("Qual o seu sexo, Masculino (M) ou Feminino(F)?");
+		sexo = ler.nextLine();
+		
+		while(sexo != "M" && sexo != "F") {
+			System.out.println("Ainda não entendi. Seu sexo é M ou F?");
+			sexo = ler.nextLine();
+		}
+		
+	}
+
+}

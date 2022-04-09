@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\lukit\OneDrive\Documentos\1TDSR\DDD\Exercicios_DDD\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2390099166.index
+3812539516.index

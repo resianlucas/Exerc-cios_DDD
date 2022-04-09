@@ -1,0 +1,27 @@
+package entrada_saida;
+
+import java.util.Scanner;
+
+public class exercicio {
+
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		double a, b;
+		double soma;
+		
+		System.out.printf("Insira a base do triângulo: ");
+		a = ler.nextDouble();
+		
+		System.out.printf("Insira a altura do triângulo: ");
+		b = ler.nextDouble();
+		
+		soma = (a*b)/2;
+		
+		System.out.printf("A área do triângulo é: " + soma);
+			
+
+	}
+
+}
