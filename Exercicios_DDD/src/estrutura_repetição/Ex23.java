@@ -17,6 +17,8 @@ public class Ex23 {
 			sexo = ler.next();
 		}
 		
+		ler.close();
+		
 	}
 
 }

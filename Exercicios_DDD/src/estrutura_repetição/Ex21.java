@@ -16,11 +16,9 @@ public class Ex21 {
 		while (num<0) {
 			System.out.printf("Erro! Você digitou um número negativo. \nDigite um número positivo: ");
 			num = ler.nextInt();
-			
 		}
-		
-		
-		
+		 System.out.println("Você digitou o número: "+ num);
+	
 	}
 
 }
